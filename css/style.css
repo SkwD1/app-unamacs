@@ -1,0 +1,12 @@
+body {
+    background-image: url("../img/fundo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#navBar {
+    background-color: black;
+    height: 60px;
+    opacity: 0.55;
+    filter: alpha(opacity=55); 
+}
