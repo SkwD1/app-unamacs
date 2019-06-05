@@ -7,21 +7,77 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
     <script src='main.js'></script>
 </head>
 <body>
+  <!-- HEADER -->
+
   <div class="header">
-        <nav class="navbar navbar-light" id="navBar">
-           <ul class="navbar-nav mr-auto">
-               <li class="nav-item active">
-                    <a class="nav-link" href="#">INICIO <span class="sr-only">(página atual)</span></a>
-               </li>
-               <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-               </li>
-           </ul>
-        </nav>
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <a class="navbar-brand" href="#">
+        <img src="img/logo.png" width="100" class="d-inline-block align-top" alt="">
+      </a>
+
+      <div class="navbar-collapse" id="menu">
+        <ul class="navbar-nav" id="itens-menu">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">INÍCIO <span class="sr-only">(Página atual)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">GALERIA</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">MAPA</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">SOBRE</a>
+          </li>
+        </ul>
+      </div>
+
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="navbar-brand" href="#">
+            <img src="img/instagram-logo.png" width="25" class="d-inline-block align-top" alt="">
+          </a>
+        </li>
+        <li class="nav-item active">
+          <a class="navbar-brand" href="#">
+            <img src="img/facebook-app-logo.png" width="25" class="d-inline-block align-top" alt="">
+          </a>
+        </li>
+        <li class="nav-item active">
+          <a class="navbar-brand" href="#">
+            <img src="img/gmail-logo.png" width="25" class="d-inline-block align-top" alt="">
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+  <!--HEADER-->
+
+
+  <div class="container">
+    <div class="lado-esquerdo">
+      <br><br>
+      <h2>Lagoa grande</h2>
+
+      <a class="teste" href="#">
+        <img src="img/lagoa-grande.jpg" width="400px" id="lagoa">
+      </a>
+    </div>
+
+    <div class="lado-direito">
+      <br><br><br><br>
       
+      <h1>Lorem Ipsum</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing<br> elit.
+      Fusce tincidunt urna et felis semper, et condimentum<br> 
+      risus iaculis. Aliquam nec semper leo. Mauris fringilla<br>justo eu finibus vulputate.</p>
+    </div>
+    
   </div>
 </body>
 </html>

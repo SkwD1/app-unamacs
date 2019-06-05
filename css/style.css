@@ -1,12 +1,55 @@
 body {
-    background-image: url("../img/fundo.jpg");
+    background-color: white;
+    background-image: url('../img/fundo_unamacs.png');
     background-repeat: no-repeat;
     background-size: cover;
+    color: white;
+    font-family: 'Righteous', cursive;
 }
 
 #navBar {
-    background-color: black;
     height: 60px;
-    opacity: 0.55;
-    filter: alpha(opacity=55); 
+    color: white;
+    
 }
+
+#itens-menu  {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin: auto;
+    align-items: center;  
+    font-family: 'Righteous', cursive;
+}
+
+#itens-menu .nav-item {
+    margin-left: 10px;
+}
+
+.container {
+    color: white;
+    font-family: 'Righteous', cursive;
+    margin-left: 100px;
+    
+    background-size: cover;
+}
+
+.lado-esquerdo {
+    float: left;
+    text-align: center;
+}
+
+.lado-direito {
+    float: right;
+}
+
+.lado-direito .h1 {
+    font-size: 40px;
+}
+
+#lagoa {
+    border-radius: 20px;
+    border: 3px solid #115154;
+
+}
+
