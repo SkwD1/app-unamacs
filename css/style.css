@@ -1,16 +1,33 @@
 body {
     background-color: white;
-    background-image: url('../img/fundo_unamacs.png');
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
     font-family: 'Righteous', cursive;
 }
 
-#navBar {
+.arcabouco {
+    background-image: url('../img/menu-teste.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.header {
+    background-color: #1b676b;
+}
+
+.nav-link{
     height: 60px;
+    color: #ddd9ce;
+}
+
+.nav-link:hover {
     color: white;
-    
 }
 
 #itens-menu  {
